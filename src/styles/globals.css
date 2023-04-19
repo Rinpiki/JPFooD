@@ -13,6 +13,15 @@
   }
 }
 
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -39,4 +48,10 @@ body > div {
   flex-direction: column;
   opacity: 0;
   animation: fadeIn 3s forwards;
+}
+
+@layer components {
+  .animation-flux {
+    @apply;
+  }
 }

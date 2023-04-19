@@ -1,11 +1,9 @@
-import Image from 'next/image';
-import { Fade } from 'react-awesome-reveal';
-import menu from '../../public/icon/menu.svg';
+import Menu from './Menu';
 
 function Header() {
   return (
-    <header className="flex justify-between p-6 w-full items-center md:p-8">
-      <h1 className="font-Montserrat w-3 text-cinza font-bold text-lg sm:text-[32px]">
+    <header className="flex -z-20 justify-between p-6 w-full items-center md:p-8">
+      <h1 className="font-Montserrat  text-cinza font-bold text-lg sm:text-[32px]">
         Food<span className="text-red">JP</span>
       </h1>
 
@@ -25,14 +23,7 @@ function Header() {
         Entrar
       </button>
 
-      <Image
-        className="sm:hidden"
-        priority
-        src={menu}
-        alt="title"
-        width={24}
-        height={24}
-      />
+      <Menu />
     </header>
   );
 }
