@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Fade } from 'react-awesome-reveal';
+
 import Image from 'next/image';
 import Icon from '../../public/icon/menu.svg';
 import xIcon from '../../public/icon/xicon.png';

@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Header from '../componets/Header';
+import Main from '../componets/Main';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Header />
+      <Main />
     </>
   );
 }
