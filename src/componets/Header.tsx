@@ -19,7 +19,7 @@ function Header() {
         </li>
       </ul>
 
-      <button className="hidden text-lg font-Inter text-cinza font-medium px-6 py-2 rounded-md border-black border sm:flex md:px-9">
+      <button className="hidden text-lg font-Inter text-cinza font-medium px-6 py-1 rounded-md border-black border sm:flex md:px-9">
         Entrar
       </button>
 

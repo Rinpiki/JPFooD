@@ -13,7 +13,7 @@ function Main() {
           A culinária Japonesa é bastante equilibrada, sendo muito rica em
           peixes (ômega 3), vegetais, massas e ingredientes frescos.
         </p>
-        <button className="text-base font-bold text-white bg-red w-full py-[10px] border rounded-md sm:max-w-[292px] sm:text-2xl sm:py-[15px] ">
+        <button className="text-base font-bold text-white bg-red hover:bg-rose-700 w-full py-[10px] border rounded-md sm:max-w-[292px] sm:text-2xl sm:py-[15px] ">
           Cardápio
         </button>
       </div>
