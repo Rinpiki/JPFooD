@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Header from '../componets/Header';
 import Main from '../componets/Main';
 import SecondSection from '@/componets/SecondSection';
+import SecessionDishes from '@/componets/SecessionDishes';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <Main />
       <SecondSection />
+      <SecessionDishes />
     </>
   );
 }
