@@ -10,7 +10,7 @@ interface CardProps {
 
 function CardsDishe({ title, description, price, image }: CardProps) {
   return (
-    <div className="w-[312px] bg-[#F3F3F3] rounded-lg relative">
+    <div className="w-[312px] bg-[#F3F3F3] rounded-xl relative">
       <Image
         src={image}
         width={209}

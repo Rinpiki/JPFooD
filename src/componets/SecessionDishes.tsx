@@ -6,9 +6,11 @@ import prato3 from '../../public/img/prato3.png';
 
 function SecessionDishes() {
   return (
-    <div className="text-center">
-      <h3 className="font-semibold text-2xl mb-20">Mais populares</h3>
-      <div className="grid grid-cols-[1fr] grid-rows-[repeat(3,1fr)] gap-x-0 gap-y-28">
+    <div className="text-center mt-[0px] md:mt-[100px]">
+      <h3 className="font-semibold text-2xl mb-[100px] md:text-5xl">
+        Mais populares
+      </h3>
+      <div className="grid grid-cols-1  gap-y-28 md:grid-cols-2 lg:grid-cols-3 md:gap-10 xl:gap-11">
         <CardsDishe
           image={prato1}
           title="Ramen de Frango"
