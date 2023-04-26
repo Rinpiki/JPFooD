@@ -6,7 +6,7 @@ import prato3 from '../../public/img/prato3.png';
 
 function SecessionDishes() {
   return (
-    <div className="text-center mt-[0px] md:mt-[100px]">
+    <div className="text-center mb-14 mt-[0px] md:mt-[100px]">
       <h3 className="font-semibold text-2xl mb-[100px] md:text-5xl">
         Mais populares
       </h3>

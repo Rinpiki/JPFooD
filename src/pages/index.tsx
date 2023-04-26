@@ -3,6 +3,7 @@ import Header from '../componets/Header';
 import Main from '../componets/Main';
 import SecondSection from '@/componets/SecondSection';
 import SecessionDishes from '@/componets/SecessionDishes';
+import Feedback from '@/componets/Feedback';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Main />
       <SecondSection />
       <SecessionDishes />
+      <Feedback />
     </>
   );
 }

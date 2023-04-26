@@ -12,6 +12,7 @@ function SecondSection() {
         width={312}
         height={350}
       />
+
       <div className="text-center mb-14 md:max-w-[300px] lg:max-w-[400px] xl:max-w-[500px] md:text-start">
         <h2 className="font-semibold text-2xl text-cinza mb-6 md:font-semibold lg:text-5xl md:leading-[130%]">
           Feita de forma Tradicional
