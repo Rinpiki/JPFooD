@@ -4,6 +4,7 @@ import Main from '../componets/Main';
 import SecondSection from '@/componets/SecondSection';
 import SecessionDishes from '@/componets/SecessionDishes';
 import Feedback from '@/componets/Feedback';
+import Location from '@/componets/Location';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <SecondSection />
       <SecessionDishes />
       <Feedback />
+      <Location />
     </>
   );
 }

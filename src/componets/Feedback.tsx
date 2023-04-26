@@ -5,7 +5,7 @@ import FeedbackCards from './subcomponets/FeedbackCards';
 
 function Feedback() {
   return (
-    <div className="flex flex-col items-center md:items-start md:w-full">
+    <div className="flex flex-col items-center md:items-start md:w-full md:mb-[70px]">
       <h4 className="font-semibold text-2xl mb-10 md:text-5xl md:mb-12">
         Comentários
       </h4>
