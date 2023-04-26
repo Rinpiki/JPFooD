@@ -13,7 +13,7 @@ function Feedback() {
         <FeedbackCards
           image={review1}
           name="Daniele Almeida"
-          review="Ótimo serviço! Encantada com a qualidade dos pratos."
+          review="Ótimo serviço! Encantada com a qualidade dos pratos e dos copos."
         />
         <FeedbackCards
           image={review2}
