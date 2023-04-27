@@ -6,6 +6,7 @@ import SecessionDishes from '@/componets/SecessionDishes';
 import Feedback from '@/componets/Feedback';
 import Location from '@/componets/Location';
 import InputLocation from '@/componets/InputLocation';
+import Footer from '@/componets/Footer';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Feedback />
       <Location />
       <InputLocation />
+      <Footer />
     </>
   );
 }
